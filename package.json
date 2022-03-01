@@ -13,7 +13,7 @@
     "url": "https://github.com/wbkd/react-flow.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@shahbazshoukat"
+    "@shahbaz-shoukat:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "rollup -c --environment NODE_ENV:production && postcss src/*.css --dir dist",
